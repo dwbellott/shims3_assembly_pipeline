@@ -1,0 +1,2051 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Algorithm-Diff-1.1903
+    pathname: T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
+    provides:
+      Algorithm::Diff 1.1903
+      Algorithm::Diff::_impl 1.1903
+    requirements:
+      ExtUtils::MakeMaker 0
+  Alien-Build-2.29
+    pathname: P/PL/PLICEASE/Alien-Build-2.29.tar.gz
+    provides:
+      Alien::Base 2.29
+      Alien::Base::PkgConfig 2.29
+      Alien::Base::Wrapper 2.29
+      Alien::Build 2.29
+      Alien::Build::CommandSequence 2.29
+      Alien::Build::Helper 2.29
+      Alien::Build::Interpolate 2.29
+      Alien::Build::Interpolate::Default 2.29
+      Alien::Build::Interpolate::Helper 2.29
+      Alien::Build::Log 2.29
+      Alien::Build::Log::Abbreviate 2.29
+      Alien::Build::Log::Default 2.29
+      Alien::Build::MM 2.29
+      Alien::Build::Meta 2.29
+      Alien::Build::Plugin 2.29
+      Alien::Build::Plugin::Build::Autoconf 2.29
+      Alien::Build::Plugin::Build::CMake 2.29
+      Alien::Build::Plugin::Build::Copy 2.29
+      Alien::Build::Plugin::Build::MSYS 2.29
+      Alien::Build::Plugin::Build::Make 2.29
+      Alien::Build::Plugin::Build::SearchDep 2.29
+      Alien::Build::Plugin::Core::CleanInstall 2.29
+      Alien::Build::Plugin::Core::Download 2.29
+      Alien::Build::Plugin::Core::FFI 2.29
+      Alien::Build::Plugin::Core::Gather 2.29
+      Alien::Build::Plugin::Core::Legacy 2.29
+      Alien::Build::Plugin::Core::Override 2.29
+      Alien::Build::Plugin::Core::Setup 2.29
+      Alien::Build::Plugin::Core::Tail 2.29
+      Alien::Build::Plugin::Decode::DirListing 2.29
+      Alien::Build::Plugin::Decode::DirListingFtpcopy 2.29
+      Alien::Build::Plugin::Decode::HTML 2.29
+      Alien::Build::Plugin::Decode::Mojo 2.29
+      Alien::Build::Plugin::Download::Negotiate 2.29
+      Alien::Build::Plugin::Extract::ArchiveTar 2.29
+      Alien::Build::Plugin::Extract::ArchiveZip 2.29
+      Alien::Build::Plugin::Extract::CommandLine 2.29
+      Alien::Build::Plugin::Extract::Directory 2.29
+      Alien::Build::Plugin::Extract::Negotiate 2.29
+      Alien::Build::Plugin::Fetch::CurlCommand 2.29
+      Alien::Build::Plugin::Fetch::HTTPTiny 2.29
+      Alien::Build::Plugin::Fetch::LWP 2.29
+      Alien::Build::Plugin::Fetch::Local 2.29
+      Alien::Build::Plugin::Fetch::LocalDir 2.29
+      Alien::Build::Plugin::Fetch::NetFTP 2.29
+      Alien::Build::Plugin::Fetch::Wget 2.29
+      Alien::Build::Plugin::Gather::IsolateDynamic 2.29
+      Alien::Build::Plugin::PkgConfig::CommandLine 2.29
+      Alien::Build::Plugin::PkgConfig::LibPkgConf 2.29
+      Alien::Build::Plugin::PkgConfig::MakeStatic 2.29
+      Alien::Build::Plugin::PkgConfig::Negotiate 2.29
+      Alien::Build::Plugin::PkgConfig::PP 2.29
+      Alien::Build::Plugin::Prefer::BadVersion 2.29
+      Alien::Build::Plugin::Prefer::GoodVersion 2.29
+      Alien::Build::Plugin::Prefer::SortVersions 2.29
+      Alien::Build::Plugin::Probe::CBuilder 2.29
+      Alien::Build::Plugin::Probe::CommandLine 2.29
+      Alien::Build::Plugin::Probe::Vcpkg 2.29
+      Alien::Build::Plugin::Test::Mock 2.29
+      Alien::Build::PluginMeta 2.29
+      Alien::Build::Temp 2.29
+      Alien::Build::TempDir 2.29
+      Alien::Build::Util 2.29
+      Alien::Build::Version::Basic 2.29
+      Alien::Build::rc 2.29
+      Alien::Role 2.29
+      Test::Alien 2.29
+      Test::Alien::Build 2.29
+      Test::Alien::CanCompile 2.29
+      Test::Alien::CanPlatypus 2.29
+      Test::Alien::Diag 2.29
+      Test::Alien::Run 2.29
+      Test::Alien::Synthetic 2.29
+      alienfile 2.29
+    requirements:
+      Capture::Tiny 0.17
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.64
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.11
+      File::Which 1.10
+      File::chdir 0
+      JSON::PP 0
+      List::Util 1.33
+      Path::Tiny 0.077
+      Test2::API 1.302096
+      Text::ParseWords 3.26
+      perl 5.008004
+  Alien-Libxml2-0.16
+    pathname: P/PL/PLICEASE/Alien-Libxml2-0.16.tar.gz
+    provides:
+      Alien::Libxml2 0.16
+    requirements:
+      Alien::Base 2.12
+      Alien::Build 2.12
+      Alien::Build::MM 2.12
+      Alien::Build::Plugin::Build::SearchDep 0.35
+      Alien::Build::Plugin::Prefer::BadVersion 1.05
+      Alien::Build::Plugin::Probe::Vcpkg 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.52
+      perl 5.006
+  BioPerl-1.7.7
+    pathname: C/CJ/CJFIELDS/BioPerl-1.7.7.tar.gz
+    provides:
+      Bio::Align::AlignI 1.007007
+      Bio::Align::DNAStatistics 1.007007
+      Bio::Align::PairwiseStatistics 1.007007
+      Bio::Align::ProteinStatistics 1.007007
+      Bio::Align::StatisticsI 1.007007
+      Bio::Align::Utilities 1.007007
+      Bio::AlignIO 1.007007
+      Bio::AlignIO::Handler::GenericAlignHandler 1.007007
+      Bio::AlignIO::arp 1.007007
+      Bio::AlignIO::bl2seq 1.007007
+      Bio::AlignIO::clustalw 1.007007
+      Bio::AlignIO::emboss 1.007007
+      Bio::AlignIO::fasta 1.007007
+      Bio::AlignIO::largemultifasta 1.007007
+      Bio::AlignIO::maf 1.007007
+      Bio::AlignIO::mase 1.007007
+      Bio::AlignIO::mega 1.007007
+      Bio::AlignIO::meme 1.007007
+      Bio::AlignIO::metafasta 1.007007
+      Bio::AlignIO::msf 1.007007
+      Bio::AlignIO::nexus 1.007007
+      Bio::AlignIO::pfam 1.007007
+      Bio::AlignIO::phylip 1.007007
+      Bio::AlignIO::po 1.007007
+      Bio::AlignIO::proda 1.007007
+      Bio::AlignIO::prodom 1.007007
+      Bio::AlignIO::psi 1.007007
+      Bio::AlignIO::selex 1.007007
+      Bio::AlignIO::xmfa 1.007007
+      Bio::AnalysisI 1.007007
+      Bio::AnalysisI::JobI 1.007007
+      Bio::AnalysisParserI 1.007007
+      Bio::AnalysisResultI 1.007007
+      Bio::AnnotatableI 1.007007
+      Bio::Annotation::AnnotationFactory 1.007007
+      Bio::Annotation::Collection 1.007007
+      Bio::Annotation::Comment 1.007007
+      Bio::Annotation::DBLink 1.007007
+      Bio::Annotation::OntologyTerm 1.007007
+      Bio::Annotation::Reference 1.007007
+      Bio::Annotation::Relation 1.007007
+      Bio::Annotation::SimpleValue 1.007007
+      Bio::Annotation::StructuredValue 1.007007
+      Bio::Annotation::TagTree 1.007007
+      Bio::Annotation::Target 1.007007
+      Bio::Annotation::Tree 1.007007
+      Bio::Annotation::TypeManager 1.007007
+      Bio::AnnotationCollectionI 1.007007
+      Bio::AnnotationI 1.007007
+      Bio::CodonUsage::IO 1.007007
+      Bio::CodonUsage::Table 1.007007
+      Bio::DB::DBFetch 1.007007
+      Bio::DB::Failover 1.007007
+      Bio::DB::Fasta 1.007007
+      Bio::DB::FileCache 1.007007
+      Bio::DB::Flat 1.007007
+      Bio::DB::Flat::BDB 1.007007
+      Bio::DB::Flat::BDB::embl 1.007007
+      Bio::DB::Flat::BDB::fasta 1.007007
+      Bio::DB::Flat::BDB::genbank 1.007007
+      Bio::DB::Flat::BDB::swiss 1.007007
+      Bio::DB::Flat::BinarySearch 1.007007
+      Bio::DB::GFF::Util::Binning 1.007007
+      Bio::DB::GFF::Util::Rearrange 1.007007
+      Bio::DB::GenericWebAgent 1.007007
+      Bio::DB::InMemoryCache 1.007007
+      Bio::DB::Indexed::Stream 1.007007
+      Bio::DB::IndexedBase 1.007007
+      Bio::DB::LocationI 1.007007
+      Bio::DB::Qual 1.007007
+      Bio::DB::Query::WebQuery 1.007007
+      Bio::DB::QueryI 1.007007
+      Bio::DB::RandomAccessI 1.007007
+      Bio::DB::ReferenceI 1.007007
+      Bio::DB::Registry 1.007007
+      Bio::DB::SeqI 1.007007
+      Bio::DB::Taxonomy 1.007007
+      Bio::DB::Taxonomy::flatfile 1.007007
+      Bio::DB::Taxonomy::greengenes 1.007007
+      Bio::DB::Taxonomy::list 1.007007
+      Bio::DB::Taxonomy::silva 1.007007
+      Bio::DB::UpdateableSeqI 1.007007
+      Bio::DB::WebDBSeqI 1.007007
+      Bio::DBLinkContainerI 1.007007
+      Bio::Das::FeatureTypeI 1.007007
+      Bio::Das::SegmentI 1.007007
+      Bio::DasI 1.007007
+      Bio::DescribableI 1.007007
+      Bio::Event::EventGeneratorI 1.007007
+      Bio::Event::EventHandlerI 1.007007
+      Bio::Factory::AnalysisI 1.007007
+      Bio::Factory::ApplicationFactoryI 1.007007
+      Bio::Factory::DriverFactory 1.007007
+      Bio::Factory::FTLocationFactory 1.007007
+      Bio::Factory::LocationFactoryI 1.007007
+      Bio::Factory::ObjectBuilderI 1.007007
+      Bio::Factory::ObjectFactory 1.007007
+      Bio::Factory::ObjectFactoryI 1.007007
+      Bio::Factory::SeqAnalysisParserFactory 1.007007
+      Bio::Factory::SeqAnalysisParserFactoryI 1.007007
+      Bio::Factory::SequenceFactoryI 1.007007
+      Bio::Factory::SequenceProcessorI 1.007007
+      Bio::Factory::SequenceStreamI 1.007007
+      Bio::Factory::TreeFactoryI 1.007007
+      Bio::FeatureHolderI 1.007007
+      Bio::HandlerBaseI 1.007007
+      Bio::IdCollectionI 1.007007
+      Bio::IdentifiableI 1.007007
+      Bio::Index::Abstract 1.007007
+      Bio::Index::AbstractSeq 1.007007
+      Bio::Index::Blast 1.007007
+      Bio::Index::BlastTable 1.007007
+      Bio::Index::EMBL 1.007007
+      Bio::Index::Fasta 1.007007
+      Bio::Index::Fastq 1.007007
+      Bio::Index::GenBank 1.007007
+      Bio::Index::Qual 1.007007
+      Bio::Index::SwissPfam 1.007007
+      Bio::Index::Swissprot 1.007007
+      Bio::LocatableSeq 1.007007
+      Bio::Location::Atomic 1.007007
+      Bio::Location::AvWithinCoordPolicy 1.007007
+      Bio::Location::CoordinatePolicyI 1.007007
+      Bio::Location::Fuzzy 1.007007
+      Bio::Location::FuzzyLocationI 1.007007
+      Bio::Location::NarrowestCoordPolicy 1.007007
+      Bio::Location::Simple 1.007007
+      Bio::Location::Split 1.007007
+      Bio::Location::SplitLocationI 1.007007
+      Bio::Location::WidestCoordPolicy 1.007007
+      Bio::LocationI 1.007007
+      Bio::Matrix::Generic 1.007007
+      Bio::Matrix::IO 1.007007
+      Bio::Matrix::IO::mlagan 1.007007
+      Bio::Matrix::IO::phylip 1.007007
+      Bio::Matrix::IO::scoring 1.007007
+      Bio::Matrix::MatrixI 1.007007
+      Bio::Matrix::Mlagan 1.007007
+      Bio::Matrix::PSM::IO 1.007007
+      Bio::Matrix::PSM::IO::mast 1.007007
+      Bio::Matrix::PSM::IO::masta 1.007007
+      Bio::Matrix::PSM::IO::meme 1.007007
+      Bio::Matrix::PSM::IO::psiblast 1.007007
+      Bio::Matrix::PSM::IO::transfac 1.007007
+      Bio::Matrix::PSM::InstanceSite 1.007007
+      Bio::Matrix::PSM::InstanceSiteI 1.007007
+      Bio::Matrix::PSM::ProtMatrix 1.007007
+      Bio::Matrix::PSM::ProtPsm 1.007007
+      Bio::Matrix::PSM::Psm 1.007007
+      Bio::Matrix::PSM::PsmHeader 1.007007
+      Bio::Matrix::PSM::PsmHeaderI 1.007007
+      Bio::Matrix::PSM::PsmI 1.007007
+      Bio::Matrix::PSM::SiteMatrix 1.007007
+      Bio::Matrix::PSM::SiteMatrixI 1.007007
+      Bio::Matrix::PhylipDist 1.007007
+      Bio::Matrix::Scoring 1.007007
+      Bio::Ontology::DocumentRegistry 1.007007
+      Bio::Ontology::GOterm 1.007007
+      Bio::Ontology::InterProTerm 1.007007
+      Bio::Ontology::OBOEngine 1.007007
+      Bio::Ontology::OBOterm 1.007007
+      Bio::Ontology::Ontology 1.007007
+      Bio::Ontology::OntologyEngineI 1.007007
+      Bio::Ontology::OntologyI 1.007007
+      Bio::Ontology::OntologyStore 1.007007
+      Bio::Ontology::Path 1.007007
+      Bio::Ontology::PathI 1.007007
+      Bio::Ontology::Relationship 1.007007
+      Bio::Ontology::RelationshipFactory 1.007007
+      Bio::Ontology::RelationshipI 1.007007
+      Bio::Ontology::RelationshipType 1.007007
+      Bio::Ontology::SimpleGOEngine::GraphAdaptor 1.007007
+      Bio::Ontology::SimpleOntologyEngine 1.007007
+      Bio::Ontology::Term 1.007007
+      Bio::Ontology::TermFactory 1.007007
+      Bio::Ontology::TermI 1.007007
+      Bio::OntologyIO 1.007007
+      Bio::OntologyIO::Handlers::BaseSAXHandler 1.007007
+      Bio::OntologyIO::Handlers::InterProHandler 1.007007
+      Bio::OntologyIO::Handlers::InterPro_BioSQL_Handler 1.007007
+      Bio::OntologyIO::InterProParser 1.007007
+      Bio::OntologyIO::dagflat 1.007007
+      Bio::OntologyIO::goflat 1.007007
+      Bio::OntologyIO::obo 1.007007
+      Bio::OntologyIO::simplehierarchy 1.007007
+      Bio::OntologyIO::soflat 1.007007
+      Bio::ParameterBaseI 1.007007
+      Bio::PrimarySeq 1.007007
+      Bio::PrimarySeq::Fasta 1.007007
+      Bio::PrimarySeqI 1.007007
+      Bio::PullParserI 1.007007
+      Bio::Range 1.007007
+      Bio::RangeI 1.007007
+      Bio::Root::Exception 1.007007
+      Bio::Root::HTTPget 1.007007
+      Bio::Root::IO 1.007007
+      Bio::Root::Root 1.007007
+      Bio::Root::RootI 1.007007
+      Bio::Root::Storable 1.007007
+      Bio::Root::Test 1.007007
+      Bio::Root::TestObject 1.007007
+      Bio::Root::Utilities 1.007007
+      Bio::Root::Version 1.007007
+      Bio::Search::BlastStatistics 1.007007
+      Bio::Search::BlastUtils 1.007007
+      Bio::Search::DatabaseI 1.007007
+      Bio::Search::GenericDatabase 1.007007
+      Bio::Search::GenericStatistics 1.007007
+      Bio::Search::HSP::BlastHSP 1.007007
+      Bio::Search::HSP::BlastPullHSP 1.007007
+      Bio::Search::HSP::FastaHSP 1.007007
+      Bio::Search::HSP::GenericHSP 1.007007
+      Bio::Search::HSP::HSPFactory 1.007007
+      Bio::Search::HSP::HSPI 1.007007
+      Bio::Search::HSP::ModelHSP 1.007007
+      Bio::Search::HSP::PSLHSP 1.007007
+      Bio::Search::HSP::PsiBlastHSP 1.007007
+      Bio::Search::HSP::PullHSPI 1.007007
+      Bio::Search::HSP::WABAHSP 1.007007
+      Bio::Search::Hit::BlastHit 1.007007
+      Bio::Search::Hit::BlastPullHit 1.007007
+      Bio::Search::Hit::Fasta 1.007007
+      Bio::Search::Hit::GenericHit 1.007007
+      Bio::Search::Hit::HitFactory 1.007007
+      Bio::Search::Hit::HitI 1.007007
+      Bio::Search::Hit::ModelHit 1.007007
+      Bio::Search::Hit::PsiBlastHit 1.007007
+      Bio::Search::Hit::PullHitI 1.007007
+      Bio::Search::Iteration::GenericIteration 1.007007
+      Bio::Search::Iteration::IterationI 1.007007
+      Bio::Search::Processor 1.007007
+      Bio::Search::Result::BlastPullResult 1.007007
+      Bio::Search::Result::BlastResult 1.007007
+      Bio::Search::Result::CrossMatchResult 1.007007
+      Bio::Search::Result::GenericResult 1.007007
+      Bio::Search::Result::INFERNALResult 1.007007
+      Bio::Search::Result::PullResultI 1.007007
+      Bio::Search::Result::ResultFactory 1.007007
+      Bio::Search::Result::ResultI 1.007007
+      Bio::Search::Result::WABAResult 1.007007
+      Bio::Search::SearchUtils 1.007007
+      Bio::Search::StatisticsI 1.007007
+      Bio::Search::Tiling::MapTileUtils 1.007007
+      Bio::Search::Tiling::MapTiling 1.007007
+      Bio::Search::Tiling::TilingI 1.007007
+      Bio::SearchIO 1.007007
+      Bio::SearchIO::EventHandlerI 1.007007
+      Bio::SearchIO::FastHitEventBuilder 1.007007
+      Bio::SearchIO::IteratedSearchResultEventBuilder 1.007007
+      Bio::SearchIO::SearchResultEventBuilder 1.007007
+      Bio::SearchIO::SearchWriterI 1.007007
+      Bio::SearchIO::Writer::GbrowseGFF 1.007007
+      Bio::SearchIO::Writer::HSPTableWriter 1.007007
+      Bio::SearchIO::Writer::HTMLResultWriter 1.007007
+      Bio::SearchIO::Writer::HitTableWriter 1.007007
+      Bio::SearchIO::Writer::ResultTableWriter 1.007007
+      Bio::SearchIO::Writer::TextResultWriter 1.007007
+      Bio::SearchIO::axt 1.007007
+      Bio::SearchIO::blast 1.007007
+      Bio::SearchIO::blast_pull 1.007007
+      Bio::SearchIO::blasttable 1.007007
+      Bio::SearchIO::cross_match 1.007007
+      Bio::SearchIO::erpin 1.007007
+      Bio::SearchIO::exonerate 1.007007
+      Bio::SearchIO::fasta 1.007007
+      Bio::SearchIO::gmap_f9 1.007007
+      Bio::SearchIO::infernal 1.007007
+      Bio::SearchIO::megablast 1.007007
+      Bio::SearchIO::psl 1.007007
+      Bio::SearchIO::rnamotif 1.007007
+      Bio::SearchIO::sim4 1.007007
+      Bio::SearchIO::waba 1.007007
+      Bio::SearchIO::wise 1.007007
+      Bio::Seq 1.007007
+      Bio::Seq::BaseSeqProcessor 1.007007
+      Bio::Seq::EncodedSeq 1.007007
+      Bio::Seq::LargeLocatableSeq 1.007007
+      Bio::Seq::LargePrimarySeq 1.007007
+      Bio::Seq::LargeSeq 1.007007
+      Bio::Seq::LargeSeqI 1.007007
+      Bio::Seq::Meta 1.007007
+      Bio::Seq::Meta::Array 1.007007
+      Bio::Seq::MetaI 1.007007
+      Bio::Seq::PrimaryQual 1.007007
+      Bio::Seq::PrimaryQual::Qual 1.007007
+      Bio::Seq::PrimedSeq 1.007007
+      Bio::Seq::QualI 1.007007
+      Bio::Seq::Quality 1.007007
+      Bio::Seq::RichSeq 1.007007
+      Bio::Seq::RichSeqI 1.007007
+      Bio::Seq::SeqBuilder 1.007007
+      Bio::Seq::SeqFactory 1.007007
+      Bio::Seq::SeqFastaSpeedFactory 1.007007
+      Bio::Seq::SequenceTrace 1.007007
+      Bio::Seq::SimulatedRead 1.007007
+      Bio::Seq::TraceI 1.007007
+      Bio::SeqAnalysisParserI 1.007007
+      Bio::SeqFeature::Amplicon 1.007007
+      Bio::SeqFeature::AnnotationAdaptor 1.007007
+      Bio::SeqFeature::Collection 1.007007
+      Bio::SeqFeature::CollectionI 1.007007
+      Bio::SeqFeature::Computation 1.007007
+      Bio::SeqFeature::FeaturePair 1.007007
+      Bio::SeqFeature::Gene::Exon 1.007007
+      Bio::SeqFeature::Gene::ExonI 1.007007
+      Bio::SeqFeature::Gene::GeneStructure 1.007007
+      Bio::SeqFeature::Gene::GeneStructureI 1.007007
+      Bio::SeqFeature::Gene::Intron 1.007007
+      Bio::SeqFeature::Gene::NC_Feature 1.007007
+      Bio::SeqFeature::Gene::Poly_A_site 1.007007
+      Bio::SeqFeature::Gene::Promoter 1.007007
+      Bio::SeqFeature::Gene::Transcript 1.007007
+      Bio::SeqFeature::Gene::TranscriptI 1.007007
+      Bio::SeqFeature::Gene::UTR 1.007007
+      Bio::SeqFeature::Generic 1.007007
+      Bio::SeqFeature::Lite 1.007007
+      Bio::SeqFeature::PositionProxy 1.007007
+      Bio::SeqFeature::Primer 1.007007
+      Bio::SeqFeature::Similarity 1.007007
+      Bio::SeqFeature::SimilarityPair 1.007007
+      Bio::SeqFeature::SubSeq 1.007007
+      Bio::SeqFeature::Tools::FeatureNamer 1.007007
+      Bio::SeqFeature::Tools::IDHandler 1.007007
+      Bio::SeqFeature::Tools::TypeMapper 1.007007
+      Bio::SeqFeature::Tools::Unflattener 1.007007
+      Bio::SeqFeature::TypedSeqFeatureI 1.007007
+      Bio::SeqFeatureI 1.007007
+      Bio::SeqI 1.007007
+      Bio::SeqIO 1.007007
+      Bio::SeqIO::FTHelper 1.007007
+      Bio::SeqIO::Handler::GenericRichSeqHandler 1.007007
+      Bio::SeqIO::MultiFile 1.007007
+      Bio::SeqIO::ace 1.007007
+      Bio::SeqIO::asciitree 1.007007
+      Bio::SeqIO::bsml 1.007007
+      Bio::SeqIO::bsml_sax 1.007007
+      Bio::SeqIO::embl 1.007007
+      Bio::SeqIO::embldriver 1.007007
+      Bio::SeqIO::fasta 1.007007
+      Bio::SeqIO::fastq 1.007007
+      Bio::SeqIO::game 1.007007
+      Bio::SeqIO::game::featHandler 1.007007
+      Bio::SeqIO::game::gameHandler 1.007007
+      Bio::SeqIO::game::gameSubs 1.007007
+      Bio::SeqIO::game::gameWriter 1.007007
+      Bio::SeqIO::game::seqHandler 1.007007
+      Bio::SeqIO::gbdriver 1.007007
+      Bio::SeqIO::gbxml 1.007007
+      Bio::SeqIO::gcg 1.007007
+      Bio::SeqIO::genbank 1.007007
+      Bio::SeqIO::interpro 1.007007
+      Bio::SeqIO::kegg 1.007007
+      Bio::SeqIO::largefasta 1.007007
+      Bio::SeqIO::locuslink 1.007007
+      Bio::SeqIO::mbsout 1.007007
+      Bio::SeqIO::metafasta 1.007007
+      Bio::SeqIO::msout 1.007007
+      Bio::SeqIO::phd 1.007007
+      Bio::SeqIO::pir 1.007007
+      Bio::SeqIO::qual 1.007007
+      Bio::SeqIO::raw 1.007007
+      Bio::SeqIO::scf 1.007007
+      Bio::SeqIO::seqxml 1.007007
+      Bio::SeqIO::swiss 1.007007
+      Bio::SeqIO::swissdriver 1.007007
+      Bio::SeqIO::tab 1.007007
+      Bio::SeqIO::table 1.007007
+      Bio::SeqIO::tigr 1.007007
+      Bio::SeqIO::tigrxml 1.007007
+      Bio::SeqIO::tinyseq 1.007007
+      Bio::SeqIO::tinyseq::tinyseqHandler 1.007007
+      Bio::SeqUtils 1.007007
+      Bio::SimpleAlign 1.007007
+      Bio::SimpleAnalysisI 1.007007
+      Bio::Species 1.007007
+      Bio::Taxon 1.007007
+      Bio::Tools::Alignment::Consed 1.007007
+      Bio::Tools::Alignment::Trim 1.007007
+      Bio::Tools::AmpliconSearch 1.007007
+      Bio::Tools::Analysis::SimpleAnalysisBase 1.007007
+      Bio::Tools::AnalysisResult 1.007007
+      Bio::Tools::Blat 1.007007
+      Bio::Tools::CodonTable 1.007007
+      Bio::Tools::Coil 1.007007
+      Bio::Tools::ECnumber 1.007007
+      Bio::Tools::EMBOSS::Palindrome 1.007007
+      Bio::Tools::EPCR 1.007007
+      Bio::Tools::ESTScan 1.007007
+      Bio::Tools::Eponine 1.007007
+      Bio::Tools::Est2Genome 1.007007
+      Bio::Tools::Fgenesh 1.007007
+      Bio::Tools::FootPrinter 1.007007
+      Bio::Tools::GFF 1.007007
+      Bio::Tools::Geneid 1.007007
+      Bio::Tools::Genemark 1.007007
+      Bio::Tools::Genewise 1.007007
+      Bio::Tools::Genomewise 1.007007
+      Bio::Tools::Genscan 1.007007
+      Bio::Tools::Glimmer 1.007007
+      Bio::Tools::Grail 1.007007
+      Bio::Tools::GuessSeqFormat 1.007007
+      Bio::Tools::IUPAC 1.007007
+      Bio::Tools::Lucy 1.007007
+      Bio::Tools::MZEF 1.007007
+      Bio::Tools::Match 1.007007
+      Bio::Tools::OddCodes 1.007007
+      Bio::Tools::Phylo::Gerp 1.007007
+      Bio::Tools::Phylo::Molphy 1.007007
+      Bio::Tools::Phylo::Molphy::Result 1.007007
+      Bio::Tools::Phylo::Phylip::ProtDist 1.007007
+      Bio::Tools::Prediction::Exon 1.007007
+      Bio::Tools::Prediction::Gene 1.007007
+      Bio::Tools::Primer3 1.007007
+      Bio::Tools::Primer::Assessor::Base 1.007007
+      Bio::Tools::Primer::AssessorI 1.007007
+      Bio::Tools::Primer::Feature 1.007007
+      Bio::Tools::Primer::Pair 1.007007
+      Bio::Tools::Prints 1.007007
+      Bio::Tools::Profile 1.007007
+      Bio::Tools::Promoterwise 1.007007
+      Bio::Tools::PrositeScan 1.007007
+      Bio::Tools::Pseudowise 1.007007
+      Bio::Tools::QRNA 1.007007
+      Bio::Tools::RandomDistFunctions 1.007007
+      Bio::Tools::RepeatMasker 1.007007
+      Bio::Tools::Run::Analysis 1.007007
+      Bio::Tools::Run::Analysis::Job 1.007007
+      Bio::Tools::Run::Analysis::Utils 1.007007
+      Bio::Tools::Run::AnalysisFactory 1.007007
+      Bio::Tools::Run::GenericParameters 1.007007
+      Bio::Tools::Run::ParametersI 1.007007
+      Bio::Tools::Run::Phylo::PhyloBase 1.007007
+      Bio::Tools::Run::WrapperBase 1.007007
+      Bio::Tools::Seg 1.007007
+      Bio::Tools::SeqPattern 1.007007
+      Bio::Tools::SeqPattern::Backtranslate 1.007007
+      Bio::Tools::SeqStats 1.007007
+      Bio::Tools::SeqWords 1.007007
+      Bio::Tools::Sigcleave 1.007007
+      Bio::Tools::Signalp 1.007007
+      Bio::Tools::Signalp::ExtendedSignalp 1.007007
+      Bio::Tools::Sim4::Exon 1.007007
+      Bio::Tools::Sim4::Results 1.007007
+      Bio::Tools::Spidey::Exon 1.007007
+      Bio::Tools::Spidey::Results 1.007007
+      Bio::Tools::TandemRepeatsFinder 1.007007
+      Bio::Tools::TargetP 1.007007
+      Bio::Tools::Tmhmm 1.007007
+      Bio::Tools::ipcress 1.007007
+      Bio::Tools::isPcr 1.007007
+      Bio::Tools::pICalculator 1.007007
+      Bio::Tools::tRNAscanSE 1.007007
+      Bio::Tree::AnnotatableNode 1.007007
+      Bio::Tree::Compatible 1.007007
+      Bio::Tree::DistanceFactory 1.007007
+      Bio::Tree::Node 1.007007
+      Bio::Tree::NodeI 1.007007
+      Bio::Tree::NodeNHX 1.007007
+      Bio::Tree::RandomFactory 1.007007
+      Bio::Tree::Statistics 1.007007
+      Bio::Tree::Tree 1.007007
+      Bio::Tree::TreeFunctionsI 1.007007
+      Bio::Tree::TreeI 1.007007
+      Bio::TreeIO 1.007007
+      Bio::TreeIO::NewickParser 1.007007
+      Bio::TreeIO::TreeEventBuilder 1.007007
+      Bio::TreeIO::cluster 1.007007
+      Bio::TreeIO::lintree 1.007007
+      Bio::TreeIO::newick 1.007007
+      Bio::TreeIO::nexus 1.007007
+      Bio::TreeIO::nhx 1.007007
+      Bio::TreeIO::pag 1.007007
+      Bio::TreeIO::phyloxml 1.007007
+      Bio::TreeIO::tabtree 1.007007
+      Bio::UpdateableSeqI 1.007007
+      Bio::WebAgent 1.007007
+      BioPerl 1.007007
+    requirements:
+      AnyDBM_File 0
+      Carp 0
+      Cwd 0
+      DB_File 0
+      Data::Dumper 0
+      Data::Stag 0
+      Digest::MD5 0
+      Dumpvalue 0
+      Error 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      FileHandle 0
+      Getopt::Long 0
+      Graph::Directed 0
+      HTTP::Request::Common 0
+      HTTP::Response 0
+      IO::File 0
+      IO::Handle 0
+      IO::Pipe 0
+      IO::Scalar 0
+      IO::Socket 0
+      IO::String 0
+      IPC::Run 0
+      LWP::UserAgent 0
+      List::MoreUtils 0
+      List::Util 0
+      Math::BigFloat 0
+      Module::Build 0
+      POSIX 0
+      Pod::Usage 0
+      Scalar::Util 0
+      Set::Scalar 0
+      Storable 0
+      Symbol 0
+      Test::Builder 0
+      Test::Builder::Module 0
+      Test::Most 0
+      Test::RequiresInternet 0
+      Text::Balanced 0
+      Text::Wrap 0
+      Tie::Handle 0
+      Tie::RefHash 0
+      Time::HiRes 0
+      UNIVERSAL 0
+      URI 0
+      XML::DOM 0
+      XML::DOM::XPath 0
+      XML::LibXML 0
+      XML::LibXML::Reader 0
+      XML::Parser::PerlSAX 0
+      XML::SAX 0
+      XML::SAX::Base 0
+      XML::SAX::Writer 0
+      XML::Twig 0
+      XML::Writer 0
+      YAML 0
+      base 0
+      constant 0
+      integer 0
+      overload 0
+      parent 0
+      perl 5.006
+      strict 0
+      utf8 0
+      vars 0
+      version 0
+      warnings 0
+  Capture-Tiny-0.48
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz
+    provides:
+      Capture::Tiny 0.48
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Class-Data-Inheritable-0.08
+    pathname: T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+    provides:
+      Class::Data::Inheritable 0.08
+    requirements:
+      ExtUtils::MakeMaker 0
+  Data-Stag-0.14
+    pathname: C/CM/CMUNGALL/Data-Stag-0.14.tar.gz
+    provides:
+      Data undef
+      Data::Stag 0.14
+      Data::Stag::Arr2HTML 0.14
+      Data::Stag::Base 0.14
+      Data::Stag::BaseGenerator undef
+      Data::Stag::BaseHandler 0.14
+      Data::Stag::ChainHandler 0.14
+      Data::Stag::DTDWriter 0.14
+      Data::Stag::GraphHandler 0.14
+      Data::Stag::HashDB 0.14
+      Data::Stag::ITextParser 0.14
+      Data::Stag::ITextWriter 0.14
+      Data::Stag::IndentParser 0.14
+      Data::Stag::IndentWriter 0.14
+      Data::Stag::JSONWriter 0.14
+      Data::Stag::PerlWriter 0.14
+      Data::Stag::PodParser 0.14
+      Data::Stag::SAX2Stag 0.14
+      Data::Stag::Simple 0.14
+      Data::Stag::StagDB 0.14
+      Data::Stag::StagI undef
+      Data::Stag::StagImpl 0.14
+      Data::Stag::SxprParser 0.14
+      Data::Stag::SxprWriter 0.14
+      Data::Stag::Util 0.14
+      Data::Stag::Writer 0.14
+      Data::Stag::XMLParser 0.14
+      Data::Stag::XMLWriter 0.14
+      Data::Stag::XSLHandler undef
+      Data::Stag::XSLTHandler undef
+      Data::Stag::null 0.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::String 0
+  Devel-StackTrace-2.04
+    pathname: D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz
+    provides:
+      Devel::StackTrace 2.04
+      Devel::StackTrace::Frame 2.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Scalar::Util 0
+      overload 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Encode-3.07
+    pathname: D/DA/DANKOGAI/Encode-3.07.tar.gz
+    provides:
+      Encode 3.07
+      Encode::Alias 2.24
+      Encode::Byte 2.04
+      Encode::CJKConstants 2.02
+      Encode::CN 2.03
+      Encode::CN::HZ 2.10
+      Encode::Config 2.05
+      Encode::EBCDIC 2.02
+      Encode::Encoder 2.03
+      Encode::Encoding 2.08
+      Encode::GSM0338 2.08
+      Encode::Guess 2.08
+      Encode::Internal 3.07
+      Encode::JP 2.04
+      Encode::JP::H2Z 2.02
+      Encode::JP::JIS7 2.08
+      Encode::KR 2.03
+      Encode::KR::2022_KR 2.04
+      Encode::MIME::Header 2.28
+      Encode::MIME::Header::ISO_2022_JP 1.09
+      Encode::MIME::Name 1.03
+      Encode::Symbol 2.02
+      Encode::TW 2.03
+      Encode::UTF_EBCDIC 3.07
+      Encode::Unicode 2.18
+      Encode::Unicode::UTF7 2.10
+      Encode::XS 3.07
+      Encode::utf8 3.07
+      encoding 3.00
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Storable 0
+      parent 0.221
+  Encode-Locale-1.05
+    pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
+    provides:
+      Encode::Locale 1.05
+    requirements:
+      Encode 2
+      Encode::Alias 0
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  Error-0.17029
+    pathname: S/SH/SHLOMIF/Error-0.17029.tar.gz
+    provides:
+      Error 0.17029
+      Error::Simple 0.17029
+      Error::WarnDie 0.17029
+      Error::subs 0.17029
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Module::Build 0.28
+      Scalar::Util 0
+      overload 0
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
+  Exception-Class-1.44
+    pathname: D/DR/DROLSKY/Exception-Class-1.44.tar.gz
+    provides:
+      Exception::Class 1.44
+      Exception::Class::Base 1.44
+    requirements:
+      Class::Data::Inheritable 0.02
+      Devel::StackTrace 2.00
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      base 0
+      overload 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  Exporter-Tiny-1.002002
+    pathname: T/TO/TOBYINK/Exporter-Tiny-1.002002.tar.gz
+    provides:
+      Exporter::Shiny 1.002002
+      Exporter::Tiny 1.002002
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  ExtUtils-Config-0.008
+    pathname: L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
+    provides:
+      ExtUtils::Config 0.008
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 6.30
+      strict 0
+      warnings 0
+  ExtUtils-Helpers-0.026
+    pathname: L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
+    provides:
+      ExtUtils::Helpers 0.026
+      ExtUtils::Helpers::Unix 0.026
+      ExtUtils::Helpers::VMS 0.026
+      ExtUtils::Helpers::Windows 0.026
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Spec::Functions 0
+      Text::ParseWords 3.24
+      perl 5.006
+      strict 0
+      warnings 0
+  ExtUtils-InstallPaths-0.012
+    pathname: L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+    provides:
+      ExtUtils::InstallPaths 0.012
+    requirements:
+      Carp 0
+      ExtUtils::Config 0.002
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      perl 5.006
+      strict 0
+      warnings 0
+  FFI-CheckLib-0.27
+    pathname: P/PL/PLICEASE/FFI-CheckLib-0.27.tar.gz
+    provides:
+      FFI::CheckLib 0.27
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  File-Listing-6.04
+    pathname: G/GA/GAAS/File-Listing-6.04.tar.gz
+    provides:
+      File::Listing 6.04
+      File::Listing::apache 6.04
+      File::Listing::dosftp 6.04
+      File::Listing::netware 6.04
+      File::Listing::unix 6.04
+      File::Listing::vms 6.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      perl 5.006002
+  File-Path-2.17
+    pathname: J/JK/JKEENAN/File-Path-2.17.tar.gz
+    provides:
+      File::Path 2.17
+    requirements:
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Spec 0
+  File-Which-1.23
+    pathname: P/PL/PLICEASE/File-Which-1.23.tar.gz
+    provides:
+      File::Which 1.23
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  File-chdir-0.1010
+    pathname: D/DA/DAGOLDEN/File-chdir-0.1010.tar.gz
+    provides:
+      File::chdir 0.1010
+      File::chdir::ARRAY 0.1010
+      File::chdir::SCALAR 0.1010
+    requirements:
+      Carp 0
+      Cwd 3.16
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec::Functions 3.27
+      perl 5.006
+      strict 0
+      vars 0
+  File-chmod-0.42
+    pathname: X/XE/XENO/File-chmod-0.42.tar.gz
+    provides:
+      File::chmod 0.42
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      base 0
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
+  File-chmod-Recursive-v1.0.3
+    pathname: M/MI/MITHUN/File-chmod-Recursive-v1.0.3.tar.gz
+    provides:
+      File::chmod::Recursive v1.0.3
+    requirements:
+      Cwd 0
+      File::Find 0
+      File::chmod 0.42
+      Module::Build 0.38
+      Test::More 0
+      version 0
+  Getopt-Long-2.52
+    pathname: J/JV/JV/Getopt-Long-2.52.tar.gz
+    provides:
+      Getopt::Long 2.52
+      Getopt::Long::CallBack 2.52
+      Getopt::Long::Parser 2.52
+    requirements:
+      ExtUtils::MakeMaker 0
+      Pod::Usage 1.14
+  Graph-0.9704
+    pathname: J/JH/JHI/Graph-0.9704.tar.gz
+    provides:
+      Graph 0.9704
+      Graph::AdjacencyMap undef
+      Graph::AdjacencyMap::Heavy undef
+      Graph::AdjacencyMap::Light undef
+      Graph::AdjacencyMap::Vertex undef
+      Graph::AdjacencyMatrix undef
+      Graph::Attribute undef
+      Graph::BitMatrix undef
+      Graph::Directed undef
+      Graph::MSTHeapElem undef
+      Graph::Matrix undef
+      Graph::SPTHeapElem undef
+      Graph::TransitiveClosure undef
+      Graph::TransitiveClosure::Matrix undef
+      Graph::Traversal undef
+      Graph::Traversal::BFS undef
+      Graph::Traversal::DFS undef
+      Graph::Undirected undef
+      Graph::UnionFind undef
+      Heap071::Elem undef
+      Heap071::Fibonacci undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      List::Util 0
+      Math::Complex 0
+      Safe 0
+      Scalar::Util 0
+      Storable 2.05
+      Test::More 0
+      perl 5.006
+  HTML-Parser-3.72
+    pathname: G/GA/GAAS/HTML-Parser-3.72.tar.gz
+    provides:
+      HTML::Entities 3.69
+      HTML::Filter 3.72
+      HTML::HeadParser 3.71
+      HTML::LinkExtor 3.69
+      HTML::Parser 3.72
+      HTML::PullParser 3.57
+      HTML::TokeParser 3.69
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTML::Tagset 3
+      XSLoader 0
+      perl 5.008
+  HTML-Tagset-3.20
+    pathname: P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+    provides:
+      HTML::Tagset 3.20
+    requirements:
+      ExtUtils::MakeMaker 0
+  HTTP-Cookies-6.08
+    pathname: O/OA/OALDERS/HTTP-Cookies-6.08.tar.gz
+    provides:
+      HTTP::Cookies 6.08
+      HTTP::Cookies::Microsoft 6.08
+      HTTP::Cookies::Netscape 6.08
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Headers::Util 6
+      HTTP::Request 0
+      locale 0
+      perl 5.008001
+      strict 0
+  HTTP-Daemon-6.12
+    pathname: O/OA/OALDERS/HTTP-Daemon-6.12.tar.gz
+    provides:
+      HTTP::Daemon 6.12
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Request 6
+      HTTP::Response 6
+      HTTP::Status 6
+      IO::Socket::IP 0.25
+      LWP::MediaTypes 6
+      Module::Build::Tiny 0.034
+      Socket 0
+      perl 5.006
+      strict 0
+      warnings 0
+  HTTP-Date-6.05
+    pathname: O/OA/OALDERS/HTTP-Date-6.05.tar.gz
+    provides:
+      HTTP::Date 6.05
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Time::Local 1.28
+      Time::Zone 0
+      perl 5.006002
+      strict 0
+  HTTP-Message-6.25
+    pathname: E/ET/ETHER/HTTP-Message-6.25.tar.gz
+    provides:
+      HTTP::Config 6.25
+      HTTP::Headers 6.25
+      HTTP::Headers::Auth 6.25
+      HTTP::Headers::ETag 6.25
+      HTTP::Headers::Util 6.25
+      HTTP::Message 6.25
+      HTTP::Request 6.25
+      HTTP::Request::Common 6.25
+      HTTP::Response 6.25
+      HTTP::Status 6.25
+    requirements:
+      Carp 0
+      Compress::Raw::Zlib 0
+      Encode 3.01
+      Encode::Locale 1
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      IO::Compress::Bzip2 2.021
+      IO::Compress::Deflate 0
+      IO::Compress::Gzip 0
+      IO::HTML 0
+      IO::Uncompress::Bunzip2 2.021
+      IO::Uncompress::Gunzip 0
+      IO::Uncompress::Inflate 0
+      IO::Uncompress::RawInflate 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      MIME::QuotedPrint 0
+      URI 1.10
+      base 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  HTTP-Negotiate-6.01
+    pathname: G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+    provides:
+      HTTP::Negotiate 6.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Headers 6
+      perl 5.008001
+  IO-HTML-1.001
+    pathname: C/CJ/CJM/IO-HTML-1.001.tar.gz
+    provides:
+      IO::HTML 1.001
+    requirements:
+      Carp 0
+      Encode 2.10
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+  IO-String-1.08
+    pathname: G/GA/GAAS/IO-String-1.08.tar.gz
+    provides:
+      IO::String 1.08
+    requirements:
+      ExtUtils::MakeMaker 0
+  IO-Stringy-2.113
+    pathname: C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+    provides:
+      IO::AtomicFile 2.113
+      IO::InnerFile 2.113
+      IO::Lines 2.113
+      IO::Scalar 2.113
+      IO::ScalarArray 2.113
+      IO::Stringy 2.113
+      IO::Wrap 2.113
+      IO::WrapTie 2.113
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      FileHandle 0
+      IO::File 0
+      IO::Handle 0
+      Symbol 0
+      overload 0
+      parent 0
+      strict 0
+      warnings 0
+  IO-Tty-1.14
+    pathname: T/TO/TODDR/IO-Tty-1.14.tar.gz
+    provides:
+      IO::Pty 1.14
+      IO::Tty 1.14
+      IO::Tty::Constant 1.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+  IPC-Run-20200505.0
+    pathname: T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+    provides:
+      IPC::Run 20200505.0
+      IPC::Run::Debug 20200505.0
+      IPC::Run::IO 20200505.0
+      IPC::Run::Timer 20200505.0
+      IPC::Run::Win32Helper 20200505.0
+      IPC::Run::Win32IO 20200505.0
+      IPC::Run::Win32Pump 20200505.0
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Pty 1.08
+      Test::More 0.47
+  LWP-MediaTypes-6.04
+    pathname: O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
+    provides:
+      LWP::MediaTypes 6.04
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      Scalar::Util 0
+      perl 5.006002
+      strict 0
+  List-MoreUtils-0.428
+    pathname: R/RE/REHSACK/List-MoreUtils-0.428.tar.gz
+    provides:
+      List::MoreUtils 0.428
+      List::MoreUtils::PP 0.428
+    requirements:
+      Exporter::Tiny 0.038
+      ExtUtils::MakeMaker 0
+      List::MoreUtils::XS 0.426
+  List-MoreUtils-XS-0.428
+    pathname: R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz
+    provides:
+      List::MoreUtils::XS 0.428
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      XSLoader 0.22
+      base 0
+  Module-Build-0.4231
+    pathname: L/LE/LEONT/Module-Build-0.4231.tar.gz
+    provides:
+      Module::Build 0.4231
+      Module::Build::Base 0.4231
+      Module::Build::Compat 0.4231
+      Module::Build::Config 0.4231
+      Module::Build::Cookbook 0.4231
+      Module::Build::Dumper 0.4231
+      Module::Build::Notes 0.4231
+      Module::Build::PPMMaker 0.4231
+      Module::Build::Platform::Default 0.4231
+      Module::Build::Platform::MacOS 0.4231
+      Module::Build::Platform::Unix 0.4231
+      Module::Build::Platform::VMS 0.4231
+      Module::Build::Platform::VOS 0.4231
+      Module::Build::Platform::Windows 0.4231
+      Module::Build::Platform::aix 0.4231
+      Module::Build::Platform::cygwin 0.4231
+      Module::Build::Platform::darwin 0.4231
+      Module::Build::Platform::os2 0.4231
+      Module::Build::PodParser 0.4231
+    requirements:
+      CPAN::Meta 2.142060
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Perl::OSType 1
+      Pod::Man 2.17
+      TAP::Harness 3.29
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.006001
+      version 0.87
+  Module-Build-Tiny-0.039
+    pathname: L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz
+    provides:
+      Module::Build::Tiny 0.039
+    requirements:
+      CPAN::Meta 0
+      DynaLoader 0
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      ExtUtils::Config 0.003
+      ExtUtils::Helpers 0.020
+      ExtUtils::Install 0
+      ExtUtils::InstallPaths 0.002
+      ExtUtils::ParseXS 0
+      File::Basename 0
+      File::Find 0
+      File::Path 0
+      File::Spec::Functions 0
+      Getopt::Long 2.36
+      JSON::PP 2
+      Pod::Man 0
+      TAP::Harness::Env 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Net-HTTP-6.19
+    pathname: O/OA/OALDERS/Net-HTTP-6.19.tar.gz
+    provides:
+      Net::HTTP 6.19
+      Net::HTTP::Methods 6.19
+      Net::HTTP::NB 6.19
+      Net::HTTPS 6.19
+    requirements:
+      Carp 0
+      Compress::Raw::Zlib 0
+      ExtUtils::MakeMaker 0
+      IO::Socket::INET 0
+      IO::Uncompress::Gunzip 0
+      URI 0
+      base 0
+      perl 5.006002
+      strict 0
+      vars 0
+      warnings 0
+  Path-Tiny-0.114
+    pathname: D/DA/DAGOLDEN/Path-Tiny-0.114.tar.gz
+    provides:
+      Path::Tiny 0.114
+      Path::Tiny::Error 0.114
+    requirements:
+      Carp 0
+      Cwd 0
+      Digest 1.03
+      Digest::SHA 5.45
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      File::Copy 0
+      File::Glob 0
+      File::Path 2.07
+      File::Spec 0.86
+      File::Temp 0.19
+      File::stat 0
+      constant 0
+      overload 0
+      perl 5.008001
+      strict 0
+      warnings 0
+      warnings::register 0
+  Set-Scalar-1.29
+    pathname: D/DA/DAVIDO/Set-Scalar-1.29.tar.gz
+    provides:
+      Set::Scalar 1.29
+      Set::Scalar::Base 1.29
+      Set::Scalar::Null 1.29
+      Set::Scalar::Real 1.29
+      Set::Scalar::Universe 1.29
+      Set::Scalar::Valued 1.29
+      Set::Scalar::ValuedUniverse 1.29
+      Set::Scalar::Virtual 1.29
+    requirements:
+      ExtUtils::MakeMaker 0
+  Sub-Uplevel-0.2800
+    pathname: D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+    provides:
+      Sub::Uplevel 0.2800
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Test-Deep-1.130
+    pathname: R/RJ/RJBS/Test-Deep-1.130.tar.gz
+    provides:
+      Test::Deep 1.130
+      Test::Deep::All undef
+      Test::Deep::Any undef
+      Test::Deep::Array undef
+      Test::Deep::ArrayEach undef
+      Test::Deep::ArrayElementsOnly undef
+      Test::Deep::ArrayLength undef
+      Test::Deep::ArrayLengthOnly undef
+      Test::Deep::Blessed undef
+      Test::Deep::Boolean undef
+      Test::Deep::Cache undef
+      Test::Deep::Cache::Simple undef
+      Test::Deep::Class undef
+      Test::Deep::Cmp undef
+      Test::Deep::Code undef
+      Test::Deep::Hash undef
+      Test::Deep::HashEach undef
+      Test::Deep::HashElements undef
+      Test::Deep::HashKeys undef
+      Test::Deep::HashKeysOnly undef
+      Test::Deep::Ignore undef
+      Test::Deep::Isa undef
+      Test::Deep::ListMethods undef
+      Test::Deep::MM undef
+      Test::Deep::Methods undef
+      Test::Deep::NoTest undef
+      Test::Deep::None undef
+      Test::Deep::Number undef
+      Test::Deep::Obj undef
+      Test::Deep::Ref undef
+      Test::Deep::RefType undef
+      Test::Deep::Regexp undef
+      Test::Deep::RegexpMatches undef
+      Test::Deep::RegexpOnly undef
+      Test::Deep::RegexpRef undef
+      Test::Deep::RegexpRefOnly undef
+      Test::Deep::RegexpVersion undef
+      Test::Deep::ScalarRef undef
+      Test::Deep::ScalarRefOnly undef
+      Test::Deep::Set undef
+      Test::Deep::Shallow undef
+      Test::Deep::Stack undef
+      Test::Deep::String undef
+      Test::Deep::SubHash undef
+      Test::Deep::SubHashElements undef
+      Test::Deep::SubHashKeys undef
+      Test::Deep::SubHashKeysOnly undef
+      Test::Deep::SuperHash undef
+      Test::Deep::SuperHashElements undef
+      Test::Deep::SuperHashKeys undef
+      Test::Deep::SuperHashKeysOnly undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      List::Util 1.09
+      Scalar::Util 1.09
+      Test::Builder 0
+  Test-Differences-0.67
+    pathname: D/DC/DCANTRELL/Test-Differences-0.67.tar.gz
+    provides:
+      Test::Differences 0.67
+    requirements:
+      Capture::Tiny 0.24
+      Data::Dumper 2.126
+      ExtUtils::MakeMaker 0
+      Test::More 0.88
+      Text::Diff 1.43
+  Test-Exception-0.43
+    pathname: E/EX/EXODIST/Test-Exception-0.43.tar.gz
+    provides:
+      Test::Exception 0.43
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Sub::Uplevel 0.18
+      Test::Builder 0.7
+      Test::Builder::Tester 1.07
+      Test::Harness 2.03
+      base 0
+      perl 5.006001
+      strict 0
+      warnings 0
+  Test-Most-0.37
+    pathname: O/OV/OVID/Test-Most-0.37.tar.gz
+    provides:
+      Test::Most 0.37
+      Test::Most::Exception 0.37
+    requirements:
+      Exception::Class 1.14
+      ExtUtils::MakeMaker 0
+      Test::Deep 0.119
+      Test::Differences 0.64
+      Test::Exception 0.43
+      Test::Harness 3.35
+      Test::More 1.302047
+      Test::Warn 0.30
+  Test-RequiresInternet-0.05
+    pathname: M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz
+    provides:
+      Test::RequiresInternet 0.05
+    requirements:
+      ExtUtils::MakeMaker 0
+      Socket 0
+      strict 0
+      warnings 0
+  Test-Simple-1.302177
+    pathname: E/EX/EXODIST/Test-Simple-1.302177.tar.gz
+    provides:
+      Test2 1.302177
+      Test2::API 1.302177
+      Test2::API::Breakage 1.302177
+      Test2::API::Context 1.302177
+      Test2::API::Instance 1.302177
+      Test2::API::Stack 1.302177
+      Test2::Event 1.302177
+      Test2::Event::Bail 1.302177
+      Test2::Event::Diag 1.302177
+      Test2::Event::Encoding 1.302177
+      Test2::Event::Exception 1.302177
+      Test2::Event::Fail 1.302177
+      Test2::Event::Generic 1.302177
+      Test2::Event::Note 1.302177
+      Test2::Event::Ok 1.302177
+      Test2::Event::Pass 1.302177
+      Test2::Event::Plan 1.302177
+      Test2::Event::Skip 1.302177
+      Test2::Event::Subtest 1.302177
+      Test2::Event::TAP::Version 1.302177
+      Test2::Event::V2 1.302177
+      Test2::Event::Waiting 1.302177
+      Test2::EventFacet 1.302177
+      Test2::EventFacet::About 1.302177
+      Test2::EventFacet::Amnesty 1.302177
+      Test2::EventFacet::Assert 1.302177
+      Test2::EventFacet::Control 1.302177
+      Test2::EventFacet::Error 1.302177
+      Test2::EventFacet::Hub 1.302177
+      Test2::EventFacet::Info 1.302177
+      Test2::EventFacet::Info::Table 1.302177
+      Test2::EventFacet::Meta 1.302177
+      Test2::EventFacet::Parent 1.302177
+      Test2::EventFacet::Plan 1.302177
+      Test2::EventFacet::Render 1.302177
+      Test2::EventFacet::Trace 1.302177
+      Test2::Formatter 1.302177
+      Test2::Formatter::TAP 1.302177
+      Test2::Hub 1.302177
+      Test2::Hub::Interceptor 1.302177
+      Test2::Hub::Interceptor::Terminator 1.302177
+      Test2::Hub::Subtest 1.302177
+      Test2::IPC 1.302177
+      Test2::IPC::Driver 1.302177
+      Test2::IPC::Driver::Files 1.302177
+      Test2::Tools::Tiny 1.302177
+      Test2::Util 1.302177
+      Test2::Util::ExternalMeta 1.302177
+      Test2::Util::Facets2Legacy 1.302177
+      Test2::Util::HashBase 1.302177
+      Test2::Util::Trace 1.302177
+      Test::Builder 1.302177
+      Test::Builder::Formatter 1.302177
+      Test::Builder::IO::Scalar 2.114
+      Test::Builder::Module 1.302177
+      Test::Builder::Tester 1.302177
+      Test::Builder::Tester::Color 1.302177
+      Test::Builder::Tester::Tie 1.302177
+      Test::Builder::TodoDiag 1.302177
+      Test::More 1.302177
+      Test::Simple 1.302177
+      Test::Tester 1.302177
+      Test::Tester::Capture 1.302177
+      Test::Tester::CaptureRunner 1.302177
+      Test::Tester::Delegate 1.302177
+      Test::use::ok 1.302177
+      ok 1.302177
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      File::Temp 0
+      Scalar::Util 1.13
+      Storable 0
+      perl 5.006002
+      utf8 0
+  Test-Warn-0.36
+    pathname: B/BI/BIGJ/Test-Warn-0.36.tar.gz
+    provides:
+      Test::Warn 0.36
+    requirements:
+      Carp 1.22
+      ExtUtils::MakeMaker 0
+      Sub::Uplevel 0.12
+      Test::Builder 0.13
+      Test::Builder::Tester 1.02
+      perl 5.006
+  Text-Diff-1.45
+    pathname: N/NE/NEILB/Text-Diff-1.45.tar.gz
+    provides:
+      Text::Diff 1.45
+      Text::Diff::Base 1.45
+      Text::Diff::Config 1.44
+      Text::Diff::Table 1.44
+    requirements:
+      Algorithm::Diff 1.19
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  Time-Local-1.30
+    pathname: D/DR/DROLSKY/Time-Local-1.30.tar.gz
+    provides:
+      Time::Local 1.30
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      constant 0
+      parent 0
+      strict 0
+  TimeDate-2.33
+    pathname: A/AT/ATOOMIC/TimeDate-2.33.tar.gz
+    provides:
+      Date::Format 2.24
+      Date::Format::Generic 2.24
+      Date::Language 1.10
+      Date::Language::Afar 0.99
+      Date::Language::Amharic 1.00
+      Date::Language::Austrian 1.01
+      Date::Language::Brazilian 1.01
+      Date::Language::Bulgarian 1.01
+      Date::Language::Chinese 1.00
+      Date::Language::Chinese_GB 1.01
+      Date::Language::Czech 1.01
+      Date::Language::Danish 1.01
+      Date::Language::Dutch 1.02
+      Date::Language::English 1.01
+      Date::Language::Finnish 1.01
+      Date::Language::French 1.04
+      Date::Language::Gedeo 0.99
+      Date::Language::German 1.02
+      Date::Language::Greek 1.00
+      Date::Language::Hungarian 1.01
+      Date::Language::Icelandic 1.01
+      Date::Language::Italian 1.01
+      Date::Language::Norwegian 1.01
+      Date::Language::Occitan 1.04
+      Date::Language::Oromo 0.99
+      Date::Language::Romanian 1.01
+      Date::Language::Russian 1.01
+      Date::Language::Russian_cp1251 1.01
+      Date::Language::Russian_koi8r 1.01
+      Date::Language::Sidama 0.99
+      Date::Language::Somali 0.99
+      Date::Language::Spanish 1.00
+      Date::Language::Swedish 1.01
+      Date::Language::Tigrinya 1.00
+      Date::Language::TigrinyaEritrean 1.00
+      Date::Language::TigrinyaEthiopian 1.00
+      Date::Language::Turkish 1.0
+      Date::Parse 2.33
+      Time::Zone 2.24
+      TimeDate 1.21
+    requirements:
+      ExtUtils::MakeMaker 0
+  Try-Tiny-0.30
+    pathname: E/ET/ETHER/Try-Tiny-0.30.tar.gz
+    provides:
+      Try::Tiny 0.30
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  URI-1.76
+    pathname: O/OA/OALDERS/URI-1.76.tar.gz
+    provides:
+      URI 1.76
+      URI::Escape 3.31
+      URI::Heuristic 4.20
+      URI::IRI 1.76
+      URI::QueryParam 1.76
+      URI::Split 1.76
+      URI::URL 5.04
+      URI::WithBase 2.20
+      URI::data 1.76
+      URI::file 4.21
+      URI::file::Base 1.76
+      URI::file::FAT 1.76
+      URI::file::Mac 1.76
+      URI::file::OS2 1.76
+      URI::file::QNX 1.76
+      URI::file::Unix 1.76
+      URI::file::Win32 1.76
+      URI::ftp 1.76
+      URI::gopher 1.76
+      URI::http 1.76
+      URI::https 1.76
+      URI::ldap 1.76
+      URI::ldapi 1.76
+      URI::ldaps 1.76
+      URI::mailto 1.76
+      URI::mms 1.76
+      URI::news 1.76
+      URI::nntp 1.76
+      URI::pop 1.76
+      URI::rlogin 1.76
+      URI::rsync 1.76
+      URI::rtsp 1.76
+      URI::rtspu 1.76
+      URI::sftp 1.76
+      URI::sip 1.76
+      URI::sips 1.76
+      URI::snews 1.76
+      URI::ssh 1.76
+      URI::telnet 1.76
+      URI::tn3270 1.76
+      URI::urn 1.76
+      URI::urn::isbn 1.76
+      URI::urn::oid 1.76
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Net::Domain 0
+      Scalar::Util 0
+      constant 0
+      integer 0
+      overload 0
+      parent 0
+      perl 5.008001
+      strict 0
+      utf8 0
+      warnings 0
+  WWW-RobotRules-6.02
+    pathname: G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+    provides:
+      WWW::RobotRules 6.02
+      WWW::RobotRules::AnyDBM_File 6.00
+      WWW::RobotRules::InCore 6.02
+    requirements:
+      AnyDBM_File 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      URI 1.10
+      perl 5.008001
+  XML-DOM-1.46
+    pathname: T/TJ/TJMATHER/XML-DOM-1.46.tar.gz
+    provides:
+      CheckAncestors undef
+      CmpDOM undef
+      XML::DOM 1.46
+      XML::DOM::AttDef undef
+      XML::DOM::AttlistDecl undef
+      XML::DOM::Attr undef
+      XML::DOM::CDATASection 1.46
+      XML::DOM::CharacterData undef
+      XML::DOM::Comment 1.46
+      XML::DOM::DOMException undef
+      XML::DOM::DOMImplementation 1.46
+      XML::DOM::Document undef
+      XML::DOM::DocumentFragment 1.46
+      XML::DOM::DocumentType undef
+      XML::DOM::Element undef
+      XML::DOM::ElementDecl undef
+      XML::DOM::Entity undef
+      XML::DOM::EntityReference undef
+      XML::DOM::NamedNodeMap undef
+      XML::DOM::Node undef
+      XML::DOM::NodeList undef
+      XML::DOM::Notation undef
+      XML::DOM::Parser 1.46
+      XML::DOM::PerlSAX undef
+      XML::DOM::PrintToFileHandle 1.46
+      XML::DOM::PrintToString 1.46
+      XML::DOM::ProcessingInstruction undef
+      XML::DOM::Text 1.46
+      XML::DOM::XMLDecl undef
+      XML::Handler::BuildDOM undef
+      XML::Parser::Dom 1.46
+      XML::XQL::Node 1.46
+    requirements:
+      ExtUtils::MakeMaker 0
+      LWP::UserAgent 0
+      XML::Parser 2.30
+      XML::Parser::PerlSAX 0.07
+      XML::RegExp 0
+  XML-DOM-XPath-0.14
+    pathname: M/MI/MIROD/XML-DOM-XPath-0.14.tar.gz
+    provides:
+      XML::DOM::Attr 0.14
+      XML::DOM::Comment 0.14
+      XML::DOM::Document 0.14
+      XML::DOM::Element 0.14
+      XML::DOM::Namespace 0.14
+      XML::DOM::Node 0.14
+      XML::DOM::ProcessingInstruction 0.14
+      XML::DOM::Text 0.14
+      XML::DOM::XPath 0.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::DOM 0
+      XML::XPathEngine 0.1
+  XML-Filter-BufferText-1.01
+    pathname: R/RB/RBERJON/XML-Filter-BufferText-1.01.tar.gz
+    provides:
+      XML::Filter::BufferText 1.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.40
+      XML::SAX 0.04
+      XML::SAX::Base 1.03
+  XML-LibXML-2.0205
+    pathname: S/SH/SHLOMIF/XML-LibXML-2.0205.tar.gz
+    provides:
+      XML::LibXML 2.0205
+      XML::LibXML::Attr 2.0205
+      XML::LibXML::AttributeHash 2.0205
+      XML::LibXML::Boolean 2.0205
+      XML::LibXML::CDATASection 2.0205
+      XML::LibXML::Comment 2.0205
+      XML::LibXML::Common 2.0205
+      XML::LibXML::Devel 2.0205
+      XML::LibXML::Document 2.0205
+      XML::LibXML::DocumentFragment 2.0205
+      XML::LibXML::Dtd 2.0205
+      XML::LibXML::Element 2.0205
+      XML::LibXML::ErrNo 2.0205
+      XML::LibXML::Error 2.0205
+      XML::LibXML::InputCallback 2.0205
+      XML::LibXML::Literal 2.0205
+      XML::LibXML::NamedNodeMap 2.0205
+      XML::LibXML::Namespace 2.0205
+      XML::LibXML::Node 2.0205
+      XML::LibXML::NodeList 2.0205
+      XML::LibXML::Number 2.0205
+      XML::LibXML::PI 2.0205
+      XML::LibXML::Pattern 2.0205
+      XML::LibXML::Reader 2.0205
+      XML::LibXML::RegExp 2.0205
+      XML::LibXML::RelaxNG 2.0205
+      XML::LibXML::SAX 2.0205
+      XML::LibXML::SAX::AttributeNode 2.0205
+      XML::LibXML::SAX::Builder 2.0205
+      XML::LibXML::SAX::Generator 2.0205
+      XML::LibXML::SAX::Parser 2.0205
+      XML::LibXML::Schema 2.0205
+      XML::LibXML::Text 2.0205
+      XML::LibXML::XPathContext 2.0205
+      XML::LibXML::XPathExpression 2.0205
+      XML::LibXML::_SAXParser 2.0205
+    requirements:
+      Alien::Base::Wrapper 0
+      Alien::Libxml2 0.14
+      Carp 0
+      Config 0
+      DynaLoader 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      IO::Handle 0
+      Scalar::Util 0
+      Tie::Hash 0
+      XML::NamespaceSupport 1.07
+      XML::SAX 0.11
+      XML::SAX::Base 0
+      XML::SAX::DocumentLocator 0
+      XML::SAX::Exception 0
+      base 0
+      constant 0
+      overload 0
+      parent 0
+      perl 5.008001
+      strict 0
+      vars 0
+      warnings 0
+  XML-NamespaceSupport-1.12
+    pathname: P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz
+    provides:
+      XML::NamespaceSupport 1.12
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      constant 0
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
+  XML-Parser-2.46
+    pathname: T/TO/TODDR/XML-Parser-2.46.tar.gz
+    provides:
+      XML::Parser 2.46
+      XML::Parser::Expat 2.46
+      XML::Parser::Style::Debug undef
+      XML::Parser::Style::Objects undef
+      XML::Parser::Style::Stream undef
+      XML::Parser::Style::Subs undef
+      XML::Parser::Style::Tree undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      LWP::UserAgent 0
+      perl 5.00405
+  XML-RegExp-0.04
+    pathname: T/TJ/TJMATHER/XML-RegExp-0.04.tar.gz
+    provides:
+      XML::RegExp 0.04
+    requirements:
+      ExtUtils::MakeMaker 0
+  XML-SAX-1.02
+    pathname: G/GR/GRANTM/XML-SAX-1.02.tar.gz
+    provides:
+      XML::SAX 1.02
+      XML::SAX::DocumentLocator undef
+      XML::SAX::ParserFactory 1.02
+      XML::SAX::PurePerl 1.02
+      XML::SAX::PurePerl::DebugHandler undef
+      XML::SAX::PurePerl::Exception undef
+      XML::SAX::PurePerl::Productions undef
+      XML::SAX::PurePerl::Reader undef
+      XML::SAX::PurePerl::Reader::Stream undef
+      XML::SAX::PurePerl::Reader::String undef
+      XML::SAX::PurePerl::Reader::URI undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Temp 0
+      XML::NamespaceSupport 0.03
+      XML::SAX::Base 1.05
+  XML-SAX-Base-1.09
+    pathname: G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz
+    provides:
+      XML::SAX::Base 1.09
+      XML::SAX::Base::NoHandler 1.09
+      XML::SAX::Exception 1.09
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008
+  XML-SAX-Writer-0.57
+    pathname: P/PE/PERIGRIN/XML-SAX-Writer-0.57.tar.gz
+    provides:
+      XML::SAX::Writer 0.57
+      XML::SAX::Writer::ArrayConsumer 0.57
+      XML::SAX::Writer::CodeConsumer 0.57
+      XML::SAX::Writer::ConsumerInterface 0.57
+      XML::SAX::Writer::Encode 0.57
+      XML::SAX::Writer::FileConsumer 0.57
+      XML::SAX::Writer::HandleConsumer 0.57
+      XML::SAX::Writer::NullConverter 0.57
+      XML::SAX::Writer::StringConsumer 0.57
+      XML::SAX::Writer::XML 0.57
+    requirements:
+      Encode 2.12
+      ExtUtils::MakeMaker 0
+      Test::More 0.40
+      XML::Filter::BufferText 1.00
+      XML::NamespaceSupport 1.00
+      XML::SAX::Exception 1.01
+      perl 5.005000
+  XML-Twig-3.52
+    pathname: M/MI/MIROD/XML-Twig-3.52.tar.gz
+    provides:
+      XML::Twig 3.52
+      XML::Twig::Elt 3.52
+      XML::Twig::Entity 3.52
+      XML::Twig::Entity_list 3.52
+      XML::Twig::Notation 3.52
+      XML::Twig::Notation_list 3.52
+      XML::Twig::XPath 0.02
+      XML::Twig::XPath::Attribute 0.02
+      XML::Twig::XPath::Elt 0.02
+      XML::Twig::XPath::Namespace 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::Parser 2.23
+  XML-Writer-0.625
+    pathname: J/JO/JOSEPHW/XML-Writer-0.625.tar.gz
+    provides:
+      XML::Writer 0.625
+      XML::Writer::_PrintChecker 0.625
+      XML::Writer::_String 0.625
+    requirements:
+      ExtUtils::MakeMaker 0
+  XML-XPathEngine-0.14
+    pathname: M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+    provides:
+      XML::XPathEngine 0.14
+      XML::XPathEngine::Boolean undef
+      XML::XPathEngine::Expr undef
+      XML::XPathEngine::Function undef
+      XML::XPathEngine::Literal undef
+      XML::XPathEngine::LocationPath undef
+      XML::XPathEngine::NodeSet undef
+      XML::XPathEngine::Number undef
+      XML::XPathEngine::Root undef
+      XML::XPathEngine::Step undef
+      XML::XPathEngine::Variable undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+  YAML-1.30
+    pathname: T/TI/TINITA/YAML-1.30.tar.gz
+    provides:
+      YAML 1.30
+      YAML::Any 1.30
+      YAML::Dumper undef
+      YAML::Dumper::Base undef
+      YAML::Error undef
+      YAML::Loader undef
+      YAML::Loader::Base undef
+      YAML::Marshall undef
+      YAML::Mo undef
+      YAML::Node undef
+      YAML::Tag undef
+      YAML::Type::blessed undef
+      YAML::Type::code undef
+      YAML::Type::glob undef
+      YAML::Type::ref undef
+      YAML::Type::regexp undef
+      YAML::Type::undef undef
+      YAML::Types undef
+      YAML::Warning undef
+      yaml_mapping undef
+      yaml_scalar undef
+      yaml_sequence undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
+  libwww-perl-6.47
+    pathname: O/OA/OALDERS/libwww-perl-6.47.tar.gz
+    provides:
+      LWP 6.47
+      LWP::Authen::Basic 6.47
+      LWP::Authen::Digest 6.47
+      LWP::Authen::Ntlm 6.47
+      LWP::ConnCache 6.47
+      LWP::Debug 6.47
+      LWP::Debug::TraceHTTP 6.47
+      LWP::DebugFile 6.47
+      LWP::MemberMixin 6.47
+      LWP::Protocol 6.47
+      LWP::Protocol::cpan 6.47
+      LWP::Protocol::data 6.47
+      LWP::Protocol::file 6.47
+      LWP::Protocol::ftp 6.47
+      LWP::Protocol::gopher 6.47
+      LWP::Protocol::http 6.47
+      LWP::Protocol::loopback 6.47
+      LWP::Protocol::mailto 6.47
+      LWP::Protocol::nntp 6.47
+      LWP::Protocol::nogo 6.47
+      LWP::RobotUA 6.47
+      LWP::Simple 6.47
+      LWP::UserAgent 6.47
+      libwww::perl undef
+    requirements:
+      CPAN::Meta::Requirements 2.120620
+      Digest::MD5 0
+      Encode 2.12
+      Encode::Locale 0
+      ExtUtils::MakeMaker 0
+      File::Copy 0
+      File::Listing 6
+      Getopt::Long 0
+      HTML::Entities 0
+      HTML::HeadParser 0
+      HTTP::Cookies 6
+      HTTP::Daemon 6
+      HTTP::Date 6
+      HTTP::Negotiate 6
+      HTTP::Request 6
+      HTTP::Request::Common 6
+      HTTP::Response 6
+      HTTP::Status 6
+      IO::Select 0
+      IO::Socket 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      Module::Metadata 0
+      Net::FTP 2.58
+      Net::HTTP 6.18
+      Scalar::Util 0
+      Try::Tiny 0
+      URI 1.10
+      URI::Escape 0
+      WWW::RobotRules 6
+      base 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  libxml-perl-0.08
+    pathname: K/KM/KMACLEOD/libxml-perl-0.08.tar.gz
+    provides:
+      Data::Grove 0.08
+      Data::Grove::Characters 0.08
+      Data::Grove::Parent 0.08
+      Data::Grove::ParentList 0.08
+      Data::Grove::Visitor 0.08
+      MyHandler undef
+      XML::ESISParser 0.08
+      XML::Handler::CanonXMLWriter 0.08
+      XML::Handler::Sample undef
+      XML::Handler::Subs 0.08
+      XML::Handler::XMLWriter 0.08
+      XML::Parser::PerlSAX 0.08
+      XML::PatAct::ACTION undef
+      XML::PatAct::Amsterdam 0.08
+      XML::PatAct::MatchName 0.08
+      XML::PatAct::PATTERN undef
+      XML::PatAct::ToObjects 0.08
+      XML::Perl2SAX 0.08
+      XML::SAX2Perl 0.08
+      libxml::perl undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::Parser 2.19
