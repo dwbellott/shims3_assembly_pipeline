@@ -688,6 +688,15 @@ DISTRIBUTIONS
       Class::Data::Inheritable 0.08
     requirements:
       ExtUtils::MakeMaker 0
+  DB_File-1.856
+    pathname: P/PM/PMQS/DB_File-1.856.tar.gz
+    provides:
+      DB_File 1.856
+      DB_File::BTREEINFO 1.856
+      DB_File::HASHINFO 1.856
+      DB_File::RECNOINFO 1.856
+    requirements:
+      ExtUtils::MakeMaker 0
   Data-Stag-0.14
     pathname: C/CM/CMUNGALL/Data-Stag-0.14.tar.gz
     provides:
@@ -738,43 +747,6 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  Encode-3.07
-    pathname: D/DA/DANKOGAI/Encode-3.07.tar.gz
-    provides:
-      Encode 3.07
-      Encode::Alias 2.24
-      Encode::Byte 2.04
-      Encode::CJKConstants 2.02
-      Encode::CN 2.03
-      Encode::CN::HZ 2.10
-      Encode::Config 2.05
-      Encode::EBCDIC 2.02
-      Encode::Encoder 2.03
-      Encode::Encoding 2.08
-      Encode::GSM0338 2.08
-      Encode::Guess 2.08
-      Encode::Internal 3.07
-      Encode::JP 2.04
-      Encode::JP::H2Z 2.02
-      Encode::JP::JIS7 2.08
-      Encode::KR 2.03
-      Encode::KR::2022_KR 2.04
-      Encode::MIME::Header 2.28
-      Encode::MIME::Header::ISO_2022_JP 1.09
-      Encode::MIME::Name 1.03
-      Encode::Symbol 2.02
-      Encode::TW 2.03
-      Encode::UTF_EBCDIC 3.07
-      Encode::Unicode 2.18
-      Encode::Unicode::UTF7 2.10
-      Encode::XS 3.07
-      Encode::utf8 3.07
-      encoding 3.00
-    requirements:
-      Exporter 5.57
-      ExtUtils::MakeMaker 0
-      Storable 0
-      parent 0.221
   Encode-Locale-1.05
     pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
     provides:
@@ -884,16 +856,6 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       HTTP::Date 6
       perl 5.006002
-  File-Path-2.17
-    pathname: J/JK/JKEENAN/File-Path-2.17.tar.gz
-    provides:
-      File::Path 2.17
-    requirements:
-      Cwd 0
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      File::Basename 0
-      File::Spec 0
   File-Which-1.23
     pathname: P/PL/PLICEASE/File-Which-1.23.tar.gz
     provides:
@@ -940,15 +902,6 @@ DISTRIBUTIONS
       Module::Build 0.38
       Test::More 0
       version 0
-  Getopt-Long-2.52
-    pathname: J/JV/JV/Getopt-Long-2.52.tar.gz
-    provides:
-      Getopt::Long 2.52
-      Getopt::Long::CallBack 2.52
-      Getopt::Long::Parser 2.52
-    requirements:
-      ExtUtils::MakeMaker 0
-      Pod::Usage 1.14
   Graph-0.9704
     pathname: J/JH/JHI/Graph-0.9704.tar.gz
     provides:
@@ -1131,15 +1084,6 @@ DISTRIBUTIONS
       parent 0
       strict 0
       warnings 0
-  IO-Tty-1.14
-    pathname: T/TO/TODDR/IO-Tty-1.14.tar.gz
-    provides:
-      IO::Pty 1.14
-      IO::Tty 1.14
-      IO::Tty::Constant 1.14
-    requirements:
-      ExtUtils::MakeMaker 0
-      Test::More 0
   IPC-Run-20200505.0
     pathname: T/TO/TODDR/IPC-Run-20200505.0.tar.gz
     provides:
@@ -1152,7 +1096,6 @@ DISTRIBUTIONS
       IPC::Run::Win32Pump 20200505.0
     requirements:
       ExtUtils::MakeMaker 0
-      IO::Pty 1.08
       Test::More 0.47
   LWP-MediaTypes-6.04
     pathname: O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
@@ -1437,84 +1380,6 @@ DISTRIBUTIONS
       Socket 0
       strict 0
       warnings 0
-  Test-Simple-1.302177
-    pathname: E/EX/EXODIST/Test-Simple-1.302177.tar.gz
-    provides:
-      Test2 1.302177
-      Test2::API 1.302177
-      Test2::API::Breakage 1.302177
-      Test2::API::Context 1.302177
-      Test2::API::Instance 1.302177
-      Test2::API::Stack 1.302177
-      Test2::Event 1.302177
-      Test2::Event::Bail 1.302177
-      Test2::Event::Diag 1.302177
-      Test2::Event::Encoding 1.302177
-      Test2::Event::Exception 1.302177
-      Test2::Event::Fail 1.302177
-      Test2::Event::Generic 1.302177
-      Test2::Event::Note 1.302177
-      Test2::Event::Ok 1.302177
-      Test2::Event::Pass 1.302177
-      Test2::Event::Plan 1.302177
-      Test2::Event::Skip 1.302177
-      Test2::Event::Subtest 1.302177
-      Test2::Event::TAP::Version 1.302177
-      Test2::Event::V2 1.302177
-      Test2::Event::Waiting 1.302177
-      Test2::EventFacet 1.302177
-      Test2::EventFacet::About 1.302177
-      Test2::EventFacet::Amnesty 1.302177
-      Test2::EventFacet::Assert 1.302177
-      Test2::EventFacet::Control 1.302177
-      Test2::EventFacet::Error 1.302177
-      Test2::EventFacet::Hub 1.302177
-      Test2::EventFacet::Info 1.302177
-      Test2::EventFacet::Info::Table 1.302177
-      Test2::EventFacet::Meta 1.302177
-      Test2::EventFacet::Parent 1.302177
-      Test2::EventFacet::Plan 1.302177
-      Test2::EventFacet::Render 1.302177
-      Test2::EventFacet::Trace 1.302177
-      Test2::Formatter 1.302177
-      Test2::Formatter::TAP 1.302177
-      Test2::Hub 1.302177
-      Test2::Hub::Interceptor 1.302177
-      Test2::Hub::Interceptor::Terminator 1.302177
-      Test2::Hub::Subtest 1.302177
-      Test2::IPC 1.302177
-      Test2::IPC::Driver 1.302177
-      Test2::IPC::Driver::Files 1.302177
-      Test2::Tools::Tiny 1.302177
-      Test2::Util 1.302177
-      Test2::Util::ExternalMeta 1.302177
-      Test2::Util::Facets2Legacy 1.302177
-      Test2::Util::HashBase 1.302177
-      Test2::Util::Trace 1.302177
-      Test::Builder 1.302177
-      Test::Builder::Formatter 1.302177
-      Test::Builder::IO::Scalar 2.114
-      Test::Builder::Module 1.302177
-      Test::Builder::Tester 1.302177
-      Test::Builder::Tester::Color 1.302177
-      Test::Builder::Tester::Tie 1.302177
-      Test::Builder::TodoDiag 1.302177
-      Test::More 1.302177
-      Test::Simple 1.302177
-      Test::Tester 1.302177
-      Test::Tester::Capture 1.302177
-      Test::Tester::CaptureRunner 1.302177
-      Test::Tester::Delegate 1.302177
-      Test::use::ok 1.302177
-      ok 1.302177
-    requirements:
-      ExtUtils::MakeMaker 0
-      File::Spec 0
-      File::Temp 0
-      Scalar::Util 1.13
-      Storable 0
-      perl 5.006002
-      utf8 0
   Test-Warn-0.36
     pathname: B/BI/BIGJ/Test-Warn-0.36.tar.gz
     provides:
@@ -1538,17 +1403,6 @@ DISTRIBUTIONS
       Exporter 0
       ExtUtils::MakeMaker 0
       perl 5.006
-  Time-Local-1.30
-    pathname: D/DR/DROLSKY/Time-Local-1.30.tar.gz
-    provides:
-      Time::Local 1.30
-    requirements:
-      Carp 0
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      constant 0
-      parent 0
-      strict 0
   TimeDate-2.33
     pathname: A/AT/ATOOMIC/TimeDate-2.33.tar.gz
     provides:
@@ -2006,7 +1860,7 @@ DISTRIBUTIONS
       HTTP::Request 6
       HTTP::Request::Common 6
       HTTP::Response 6
-      HTTP::Status 6
+      HTTP::Status 6.18
       IO::Select 0
       IO::Socket 0
       LWP::MediaTypes 6
