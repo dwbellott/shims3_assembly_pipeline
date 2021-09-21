@@ -1,6 +1,9 @@
 # Local perl libraries unpacked by carton
 local/
 
+# Demo output
+demo/output/
+
 # General
 .DS_Store
 .AppleDouble
