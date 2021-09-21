@@ -10,16 +10,18 @@ Software and documentation written by Daniel W. Bellott.
 
 Install the following tools used by the pipeline:
 
-- [gzip](https://www.gnu.org/software/gzip/)
-- [Minimap2](https://github.com/lh3/minimap2#install)
-- [Racon](https://github.com/lbcb-sci/racon)
-- [SAMtools](http://www.htslib.org/download/)
-- [Gap5](http://staden.sourceforge.net)
-- (Optional) [Consed](http://www.phrap.org/consed/consed.html#howToGet)
+- [gzip](https://www.gnu.org/software/gzip/) (≥1.6; tested with 1.6 and 1.10)
+- [Minimap2](https://github.com/lh3/minimap2#install) (≥2.17; tested with 2.17-r941)
+- [Racon](https://github.com/lbcb-sci/racon) (≥1.4.17; tested with 1.4.17)
+- [SAMtools](http://www.htslib.org/download/) (≥1.11; tested with 1.11)
+- [Gap5](http://staden.sourceforge.net) (≥1.2.14-r; tested with 1.2.14-r)
+- (Optional) [Consed](http://www.phrap.org/consed/consed.html#howToGet) (≥29.0; tested with 29.0)
 
 Your computer should already have perl installed
 
 All the required perl modules are packaged in the /vendor/cache directory for your convenience.
+
+Tested in Ubuntu 18.04.6 LTS and 20.04.3 LTS.
 
 ### Installation
 
@@ -88,6 +90,17 @@ USAGE: ./shims3.pl -b vector.fa -n nanopore_reads.fq
 
   -h, --help, -u, --usage  print this helpful screen and exit
 ```
+
+### Demo
+
+The `demo` directory contains real data from clone CH250-214O8 (GenBank accession: AC280424.1), from the rhesus macaque X chromosome. To test your install, run:
+
+```bash
+shims3.pl -b demo/input/backbone.fa -n demo/input/nanopore.fq.gz -f demo/input/illumina_1.fq.gz -r demo/input/illumina_2.fq.gz -d demo/output
+```
+
+The resulting file at `demo/output/shims3.polish.5.fa` should be identical to the one at `demo/expected_result/shims3.polish.5.fa`
+
 
 ### Additional scripts
 
