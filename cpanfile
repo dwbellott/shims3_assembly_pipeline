@@ -1,3 +1,5 @@
+requires 'DB_File', '1.856';
+requires 'Encode', '3.01';
 requires 'Cwd', '3.62';
 requires 'File::Which', '1.21';
 requires 'File::Path', '2.14';
