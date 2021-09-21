@@ -28,8 +28,7 @@ Tested in Ubuntu 18.04.6 LTS and 20.04.3 LTS on standard desktop and server hard
 Navigate to the directory where you want to install the pipeline and type:
 
 ```
-git clone
-https://github.com/dwbellott/shims3_assembly_pipeline.git
+git clone https://github.com/dwbellott/shims3_assembly_pipeline.git
 ```
 
 You will be prompted for your username and password.
