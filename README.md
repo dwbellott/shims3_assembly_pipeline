@@ -33,14 +33,23 @@ git clone https://github.com/dwbellott/shims3_assembly_pipeline.git
 
 You will be prompted for your username and password.
 
-After the download completes, type:
+After the download completes, change to the directory:
 
-```
+```bash
 cd shims3_assembly_pipeline
-vendor/bin/carton install --cached --deployment
 ```
 
-To install the cached perl modules.
+To install the cached perl modules, you can use [cpanm](https://metacpan.org/pod/App::cpanminus#Downloading-the-standalone-executable)
+
+```bash
+cpanm -L local --from "$PWD/vendor/cache" --installdeps --notest --quiet .
+```
+
+or [carton](https://metacpan.org/pod/Carton)
+
+```bash
+carton install --cached --deployment
+```
 
 Installation should take less than a minute on a typical desktop computer.
 
