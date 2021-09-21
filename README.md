@@ -21,7 +21,7 @@ Your computer should already have perl installed
 
 All the required perl modules are packaged in the /vendor/cache directory for your convenience.
 
-Tested in Ubuntu 18.04.6 LTS and 20.04.3 LTS on standard desktop and server hardware.
+Tested in Ubuntu 18.04.6 LTS and 20.04.3 LTS on standard desktop and server hardware and in MacOS 10.14.6 on standard laptop hardware.
 
 ### Installation
 
@@ -98,7 +98,7 @@ USAGE: ./shims3.pl -b vector.fa -n nanopore_reads.fq
 The `demo` directory contains real data from clone CH250-214O8 (GenBank accession: AC280424.1), from the rhesus macaque X chromosome. To test your install, run:
 
 ```bash
-shims3.pl -b demo/input/backbone.fa -n demo/input/nanopore.fq.gz -f demo/input/illumina_1.fq.gz -r demo/input/illumina_2.fq.gz -d demo/output
+./shims3.pl -b demo/input/backbone.fa -n demo/input/nanopore.fq.gz -f demo/input/illumina_1.fq.gz -r demo/input/illumina_2.fq.gz -d demo/output
 ```
 
 The resulting file at `demo/output/shims3.polish.5.fa` should be identical to the one at `demo/expected_result/shims3.polish.5.fa`
