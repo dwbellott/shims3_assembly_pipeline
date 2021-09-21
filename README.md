@@ -109,7 +109,13 @@ The `demo` directory contains real data from clone CH250-214O8 (GenBank accessio
 ./shims3.pl -b demo/input/backbone.fa -n demo/input/nanopore.fq.gz -f demo/input/illumina_1.fq.gz -r demo/input/illumina_2.fq.gz -d demo/output
 ```
 
-The resulting file at `demo/output/shims3.polish.5.fa` should be identical to the one at `demo/expected_result/shims3.polish.5.fa`
+The resulting file at `demo/output/shims3.polish.5.fa` should be similar to the one at `demo/expected_result/shims3.polish.5.fa`.
+
+You can check that they produce a high-quality alignment using `minimap2`:
+
+```bash
+minimap2 demo/output/shims3.polish.5.fa demo/expected_result/shims3.polish.5.fa
+```
 
 The demo should take 5-10 minutes to run on a typical desktop computer.
 
