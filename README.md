@@ -43,6 +43,8 @@ vendor/bin/carton install --cached --deployment
 
 To install the cached perl modules.
 
+Installation should take less than a minute on a typical desktop computer.
+
 ### Usage
 
 ```
@@ -101,6 +103,7 @@ shims3.pl -b demo/input/backbone.fa -n demo/input/nanopore.fq.gz -f demo/input/i
 
 The resulting file at `demo/output/shims3.polish.5.fa` should be identical to the one at `demo/expected_result/shims3.polish.5.fa`
 
+The demo should take 5-10 minutes to run on a typical desktop computer.
 
 ### Additional scripts
 
