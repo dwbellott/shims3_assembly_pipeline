@@ -21,7 +21,7 @@ Your computer should already have perl installed
 
 All the required perl modules are packaged in the /vendor/cache directory for your convenience.
 
-Tested in Ubuntu 18.04.6 LTS and 20.04.3 LTS.
+Tested in Ubuntu 18.04.6 LTS and 20.04.3 LTS on standard desktop and server hardware.
 
 ### Installation
 
